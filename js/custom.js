@@ -101,7 +101,7 @@ $(function () {
   /* typejs
   -------------------------------------------------------*/
   $('.header .caption h2 span').typed({
-    strings: ["Designer", "freelancer", "Photographer", "Web developer"],
+    strings: ["Designer", "freelancer", "Apps Developer", "Web developer"],
     loop: true,
     startDelay: 1000,
     backDelay: 2000

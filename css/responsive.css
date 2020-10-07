@@ -1,0 +1,159 @@
+/* ----------------------------------------------------------------
+   Responsive
+-----------------------------------------------------------------*/
+
+/* -------------------------------------------------------
+                     phone & tablet
+-------------------------------------------------------- */
+@media (max-width: 480px) {
+
+  .filtering { border: none !important; }
+
+  .filtering  button {
+    font-size: 14px;
+    border-radius: 0 !important;
+    letter-spacing: 0 !important;
+    padding: 10px !important;
+  }
+
+  .about .part-text .info li {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+    .xs-mb-30{margin-bottom: 30px;}
+
+    .xs-mb-50{margin-bottom: 50px;}
+
+    .header .caption h2 {
+      font-size: 35px;
+    }
+
+    .header .caption h4 {
+      font-size: 16px;
+    }
+
+    .header .caption p {
+      font-size: 16px;
+    }
+
+    .header .caption br {
+      display: none;
+    }
+
+    .resume .resume-item .icon {
+      left: 0;
+    }
+
+    .resume .resume-item .resume-box:before {
+      left: 0;
+    }
+
+    .resume .resume-item .resume-box:after {
+      left: 0;
+    }
+
+    .resume .resume-item .resume-box .date {
+      margin-bottom: 20px !important;
+    }
+
+    .hire-me h2 {
+      font-size: 30px;
+    }
+
+    .filtering { border: none !important;}
+
+    .filtering button { letter-spacing: 0 !important;}
+
+    .contact .part-info .info-block {
+      border-right: none;
+    }
+
+    footer .cop , footer .scoial-icon {
+      text-align: center;
+    }
+
+}
+
+@media (max-width: 991px){
+
+  .sm-mb-30{margin-bottom: 30px;}
+
+  .sm-mb-50{margin-bottom: 50px;}
+
+  .navbar .navbar-collapse{
+      overflow: auto;
+      background: #111;
+      color: #fff !important;
+      text-align: center;
+      padding: 10px 0;
+  }
+
+  .navbar .container {
+    max-width: 100%;
+  }
+
+  .nav-scroll .navbar-collapse{
+      background: #fff;
+      color: #fff !important;
+  }
+
+  .navbar .navbar-brand {
+    padding-left: 15px;
+  }
+
+  .navbar .dropdown-menu {
+    background-color: transparent;
+    box-shadow: none;
+    min-width: 100%;
+    border-radius: 0; 
+  }
+
+  .navbar .dropdown-menu .dropdown-item {
+    background-color: transparent;
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar .dropdown-menu .dropdown-submenu .dropdown-menu {
+    position: static;
+    margin-left: 0;
+    left: 0;
+    background-color: transparent;
+  }
+
+  .navbar .dropdown-menu .dropdown-submenu .dropdown-item {
+    background-color: transparent;
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar .dropdown-menu .dropdown-item:before {
+    display: none;
+  }
+
+  .navbar .dropdown-menu .dropdown-item , .navbar .dropdown-menu .dropdown-submenu .dropdown-item {
+    color: #fff;
+  }
+
+  .nav-scroll .dropdown-menu .dropdown-item , .nav-scroll .dropdown-menu .dropdown-submenu .dropdown-item {
+    color: #333;
+  }
+
+  .navbar .dropdown-menu .dropdown-item:hover, .navbar .dropdown-menu .dropdown-submenu .dropdown-item:hover {
+    background: transparent;
+  }
+
+  .header, .contact, .testimonial, .hire-me {
+    background-attachment: initial !important;
+  }
+
+  .about {
+    padding-bottom: 100px !important;
+  }
+}

@@ -40,7 +40,7 @@ $(function () {
     if (bodyScroll > 150) {
 
       navbar.addClass("nav-scroll");
-      $('.navbar-brand img').attr('src', 'img/logo-2.png');
+      $('.navbar-brand img').attr('src', 'img/logo.png');
 
 
     } else {
